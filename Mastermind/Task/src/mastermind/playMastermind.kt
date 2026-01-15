@@ -55,8 +55,6 @@ fun generateSecret(differentLetters: Boolean): String {
             }
         }
     }
-    //println("------------> " + value)
-    println("------------> BDAD")
-    //return value;
-    return "BDAD"
+    println("------------> " + value)
+    return value;
 }

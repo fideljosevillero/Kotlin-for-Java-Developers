@@ -3,7 +3,7 @@ files:
   - name: src/mastermind/evaluateGuess.kt
     visible: true
     placeholders:
-      - offset: 1180
+      - offset: 1196
         length: 59
         placeholder_text: TODO()
         initial_state:
@@ -31,6 +31,9 @@ files:
   - name: assignmentKey
     visible: false
     learner_created: false
+  - name: src/functionalSolution/MasterMindSolution.kt
+    visible: true
+    learner_created: true
 feedback_link: https://www.coursera.org/learn/kotlin-for-java-developers/programming/vmwVT/mastermind-game/discussions
 status: Unchecked
 feedback:

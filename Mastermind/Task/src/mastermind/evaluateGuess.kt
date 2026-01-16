@@ -10,8 +10,9 @@ fun evaluateGuess(secret: String, guess: String): Evaluation {
         return Evaluation(4, 0)
 
     val secretListChar = secret.toCharArray()
-    val guessListChar = guess.toCharArray().toMutableList()
+    val guessListChar = guess.toCharArray()
 
+    val arr1 = arrayOf(1, 2, 3)
 
     // evaluate and count rightPosition
     for(index in secretListChar.indices){

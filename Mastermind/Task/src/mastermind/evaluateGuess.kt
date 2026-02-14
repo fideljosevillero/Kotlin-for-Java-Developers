@@ -1,6 +1,8 @@
 package mastermind
 
-data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
+data class Evaluation(
+    val rightPosition: Int,
+    val wrongPosition: Int)
 
 fun evaluateGuess(secret: String, guess: String): Evaluation {
     var thisRightPosition = 0
@@ -11,8 +13,6 @@ fun evaluateGuess(secret: String, guess: String): Evaluation {
 
     val secretListChar = secret.toCharArray()
     val guessListChar = guess.toCharArray()
-
-    val arr1 = arrayOf(1, 2, 3)
 
     // evaluate and count rightPosition
     for(index in secretListChar.indices){
